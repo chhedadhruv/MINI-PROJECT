@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 nav .logo img {
     width: 500px;
     height: 100px;
 }
+
 nav .links img {
-    /* width: 250px; */
     height: 100px;
 }

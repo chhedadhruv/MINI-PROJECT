@@ -1,41 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 300px;
-    width: 500px;
-    margin: auto;
-    background: #B9FFF8;
+  height: 300px;
+  width: 500px;
+  background: #B9FFF8;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    /* margin: 0 auto; */
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+
+.title {
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
 }
 
 /* Animation */
-.anim-typewriter{
+.anim-typewriter {
   animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+    blinkTextCursor 500ms steps(44) infinite normal;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, .75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
 }
