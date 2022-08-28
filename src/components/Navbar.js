@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
-import dsgt from '../assets/DSGT.png'
+import dsgt from '../assets/DSGT-logos_black.png'
 import '../styles/Navbar.css'
 
 function Navbar() {
