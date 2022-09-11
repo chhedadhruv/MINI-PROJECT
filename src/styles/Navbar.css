@@ -8,6 +8,8 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 2px dotted #a02525;
+    position: relative;
 }
 
 nav .logo img {

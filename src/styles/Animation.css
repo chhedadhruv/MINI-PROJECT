@@ -5,19 +5,19 @@
 }
 
 .box {
+  margin-top: 50px;
   height: 300px;
   width: 500px;
-  background: #B9FFF8;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 2px solid #a02525;
+  box-shadow: rgba(160, 37, 37, 0.4) 5px 5px, rgba(160, 37, 37, 0.3) 10px 10px, rgba(160, 37, 37, 0.2) 15px 15px, rgba(160, 37, 37, 0.1) 20px 20px, rgba(160, 37, 37, 0.05) 25px 25px;
 }
 
 .title {
   height: 170px;
   display: flex;
   align-items: center;
+  color: #a02525;
   justify-content: center;
   flex-direction: column;
 }
@@ -26,7 +26,6 @@
   position: relative;
   top: 50%;
   width: 24em;
-  border-right: 2px solid rgba(255, 255, 255, .75);
   font-size: 180%;
   text-align: center;
   white-space: nowrap;
@@ -58,4 +57,30 @@
   to {
     border-right-color: transparent;
   }
+}
+.btn button {
+  margin-top: 80px;
+  font-size: 20px;
+  height: 60px;
+  width: 140px;
+  background-color: #a02525;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  transition:  0.8s ease;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+button:active{
+  background-color: rgb(255, 255, 255);
+  color: #a02525;
+  border: 1px solid #a02525;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
