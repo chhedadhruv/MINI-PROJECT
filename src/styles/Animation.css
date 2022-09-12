@@ -84,3 +84,10 @@ button:active{
   align-items: center;
   width: 100%;
 }
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+.link:active{
+  color: #a02525;
+}

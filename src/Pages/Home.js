@@ -1,10 +1,13 @@
 import React from 'react'
 import '../styles/Animation.css'
-import ExperimentList from '../Pages/ExperimentList'
+// import ExperimentList from '../Pages/ExperimentList'
+import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 function AnimatedBox() {
   return (
     <>
+    <Navbar />
     <div className='col'>
     <div className='box'>
       <div className='title'>
@@ -15,7 +18,7 @@ function AnimatedBox() {
       </div>
     </div>
     <div className='btn'> 
-      <button>Get Started</button>
+      <button><Link to="/experiments" className='link'>Get Started</Link></button>
     </div>
     </div>
     </>
