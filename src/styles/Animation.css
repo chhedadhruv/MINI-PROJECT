@@ -91,3 +91,7 @@ button:active{
 .link:active{
   color: #a02525;
 }
+.link-topics {
+  text-decoration: none;
+  color: #000;
+}
