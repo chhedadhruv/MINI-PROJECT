@@ -20,14 +20,14 @@ function SetsSim() {
         // setSetUnionValue(event.value);
         setUnionValue = union([1,2,3], [2,3,4]);
     }
-    const a = new Zet(setAValue);
-    const b = new Zet(setBValue);
-    const c = Zet.union(a, b);
+    // const a = new Zet(setAValue);
+    // const b = new Zet(setBValue);
+    // const c = Zet.union(a, b);
     // console.log(c);
-    const onClickBtn = () => {
+    // const onClickBtn = () => {
         // const c = union([setAValue, setBValue]);
-    alert(c);
-    }
+    // alert(c);
+    // }
   return (
     <>
     <Navbar />
