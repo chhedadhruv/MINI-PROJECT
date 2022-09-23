@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 // import * as set from 'node-set-theory';
 import { union } from 'node-set-theory'
-import Zet from 'zet';
+// import Zet from 'zet';
 
 function SetsSim() {
     const [setAValue, setSetAValue] = useState('');
@@ -18,7 +18,8 @@ function SetsSim() {
     };
     const handleUnion = () => {
         // setSetUnionValue(event.value);
-        setUnionValue = union([1,2,3], [2,3,4]);
+        const c = union([1,2,3], [2,3,4]);
+        alert(c);
     }
     // const a = new Zet(setAValue);
     // const b = new Zet(setBValue);
