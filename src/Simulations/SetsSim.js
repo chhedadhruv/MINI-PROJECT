@@ -50,7 +50,7 @@ function SetsSim() {
             <input type="number" name='set-union' id='input-setunion'></input>
         </div>
         </div>
-        <button type='submit' onClick={onClickBtn}>Submit</button>
+        <button type='submit' onClick={ handleUnion }>Submit</button>
     </div>
     </>
   )
