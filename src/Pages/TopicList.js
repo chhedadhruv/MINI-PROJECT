@@ -13,7 +13,7 @@ function ExperimentList() {
         <h1>List Of Topics</h1>
         <div className='topic-list-item'>
             <ul>
-                <li><Link to="/setssimulator" className='link-topics'>1: SETS</Link></li>
+                <li><Link to="/setsexp" className='link-topics'>1: SETS</Link></li>
                 <li>2: Warshal's Algorithm</li>
                 <li>3: Priciple Of Inclusion/Exclusion</li>
             </ul>

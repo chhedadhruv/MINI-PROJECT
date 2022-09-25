@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #a02929;
+    max-width: 10%;
+    color: #fff;
+    text-align: center;
+}
+.link-nav ul li {
+    list-style: none;
+    padding-top: 30%;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}

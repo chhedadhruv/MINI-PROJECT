@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../../components/Navbar'
 // import * as set from 'node-set-theory';
 import { union } from 'node-set-theory'
 // import Zet from 'zet';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import '../../styles/LeftNav.css';
+import { Link } from 'react-router-dom';
+import Aim from './Aim';
 
 function SetsSim() {
     const [setAValue, setSetAValue] = useState('');
@@ -31,8 +35,26 @@ function SetsSim() {
     // }
   return (
     <>
+    <div className='column'>
     <Navbar />
-    <div className='simulation'>
+    <div className='left-nav'>
+        {/* <div className='hamburger'>
+            <GiHamburgerMenu />
+        </div> */}
+        <div className='link-nav'>
+            <ul>
+                <li><Link to='/setsexp/aim' className='link'>Aim</Link></li>
+                <li><Link className='link' to='/setsexp/theory'>Theory</Link></li>
+                <li><Link className='link' to='/setsexp/objective'>Objective</Link></li>
+                <li><Link className='link' to='/setsexp/procedure'>Procedure</Link></li>
+                <li><Link className='link' to='/setsexp/simulation'>Simulation</Link></li>
+                <li><Link className='link' to='/setsexp/references'>References</Link></li>
+                <li><Link className='link' to='/feedback'>Feedback</Link></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    {/* <div className='simulation'>
         <div className='seta'>
         <div className='row'>
             Enter elements of set A:
@@ -52,7 +74,7 @@ function SetsSim() {
         </div>
         </div>
         <button type='submit' onClick={ handleUnion }>Submit</button>
-    </div>
+    </div> */}
     </>
   )
 }
