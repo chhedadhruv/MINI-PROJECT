@@ -17,9 +17,7 @@ function AnimatedBox() {
         <h1 className='line-1 anim-typewriter'>VIRTUAL LAB</h1>
       </div>
     </div>
-    <div className='btn'> 
       <button><Link to="/experiments" className='link'>Get Started</Link></button>
-    </div>
     </div>
     </>
   )

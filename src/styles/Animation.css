@@ -58,8 +58,10 @@
     border-right-color: transparent;
   }
 }
-.btn button {
-  margin-top: 80px;
+button {
+  /* margin-top: 80px; */
+  position: relative;
+  top: 80px;
   font-size: 20px;
   height: 60px;
   width: 140px;

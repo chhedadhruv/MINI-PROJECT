@@ -1,5 +1,5 @@
 import React from 'react'
-import Sets from './Expt1/Sets'
+import Sets from './Expt1/LeftNav'
 
 function Feedback() {
   return (
