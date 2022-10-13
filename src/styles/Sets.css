@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.set-input {
+    width: 15%;
+    margin: 0 5px;
+    /* position: relative;
+    top: 50px; */
+}
+.set-a, .set-b {
+    width: 200px;
+    height: 200px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+.btn {
+    border: 0;
+    outline: 0;
+    background: #fff;
+}
+.btn h1{
+    font-size: 50px;
+}
