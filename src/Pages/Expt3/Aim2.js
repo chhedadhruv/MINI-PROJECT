@@ -8,7 +8,8 @@ function Aim2() {
     <LeftNav2 />
     <div style={{ position: "absolute", top: 130, left: 150 }}>
         <h1>Aim</h1>
-          <p>To find the shortest path between all the pairs of vertices in a weighted graph using Warshall's Algorithm.</p>
+        <p>To find the intersection or union of two or three sets</p>
+         
     </div>
     </>
   )

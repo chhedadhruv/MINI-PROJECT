@@ -8,13 +8,16 @@ function Procedure3() {
     <LeftNav3 />
     <div style={{ position: "absolute", top: 130, left: 150 }}>
       <h1>Procedure</h1>
-      <h3>Operations on Sets:</h3>
+      <h3>Graph Theory:</h3>
       <p>
-        Warshall algorithm is used to find all pair shortest path problem from a given weighted graph. 
-        As a result of this algorithm, it will generate a matrix, which will represent the minimum distance from any node to all other nodes in the graph.
-        At first, the output matrix is the same as the given cost matrix of the graph. 
-        After that, the output matrix will be updated with all vertices k as the intermediate vertex.
+          The procedure to draw a graph for any given function or to calculate any function is the algorithm of the graph. Basically, there are predefined steps or sets of instructions that have to be followed to solve a problem using graphical methods. There are different types of algorithms which the graph theory follows, such as:
       </p>
+      <ul>
+        <li> Bellman-Ford algorithm</li>
+        <li>Borůvka’s algorithm</li>
+        <li>Ford–Fulkerson algorithm</li>
+        <li>Edmonds–Karp algorithm and many more.</li>
+      </ul>
     </div>
     </>
   )

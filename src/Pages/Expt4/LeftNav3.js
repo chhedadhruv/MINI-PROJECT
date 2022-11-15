@@ -13,37 +13,37 @@ function LeftNav3() {
           <div className="link-nav">
             <ul>
               <li>
-                <Link to="/principleofinclusionexclusion/aim" className="link">
+                <Link to="/graphtheory/aim" className="link">
                   Aim
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/theory">
+                <Link className="link" to="/graphtheory/theory">
                   Theory
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/objective">
+                <Link className="link" to="/graphtheory/objective">
                   Objective
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/procedure">
+                <Link className="link" to="/graphtheory/procedure">
                   Procedure
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/simulation">
-                  Simulation
+                <Link className="link" to="/graphtheory/simulation">
+                  Types of Graphs
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/references">
+                <Link className="link" to="/graphtheory/references">
                   References
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/feedback">
+                <Link className="link" to="/graphtheory/feedback">
                   Feedback
                 </Link>
               </li>

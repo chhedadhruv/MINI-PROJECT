@@ -43,7 +43,7 @@ function LeftNav1() {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/feedback">
+                <Link className="link" to="/warshals/feedback">
                   Feedback
                 </Link>
               </li>

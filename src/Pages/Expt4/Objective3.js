@@ -11,10 +11,9 @@ function Objective3() {
       <p>
         The student will be able to:
         <ol>
-          <li>To find the shortest path is a directed graph</li>
-          <li>Find the transitive closure of directed graphs</li>
-          <li>To find the Inversion of real matrices</li>
-          <li>For testing whether an undirected graph is bipartite</li>
+          <li>Plot a graph based on the given matrix</li>
+          <li>Find the matrix of representation based on the given graph</li>
+          <li>Understand the different types of graphs</li>
         </ol>
       </p>
     </div>

@@ -8,7 +8,7 @@ function Theory2() {
       <LeftNav2 />
       <div style={{ position: "absolute", top: 130, left: 150 }}>
         <h1>Theory</h1>
-        <h4>principle of Inclusion Exclusion:</h4>
+        <h4>Principle of Inclusion Exclusion:</h4>
         <p>
           Principle of Inclusion and Exclusion is an approach which derives the
           method of finding the number of elements in the union of two finite

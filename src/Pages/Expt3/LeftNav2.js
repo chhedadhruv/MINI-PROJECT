@@ -43,7 +43,7 @@ function LeftNav2() {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/feedback">
+                <Link className="link" to="/principleofinclusionexclusion/feedback">
                   Feedback
                 </Link>
               </li>
