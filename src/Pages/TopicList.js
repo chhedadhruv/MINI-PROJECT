@@ -14,8 +14,9 @@ function ExperimentList() {
         <div className='topic-list-item'>
             <ul>
                 <li><Link to="/setsexp" className='link-topics'>1: SETS</Link></li>
-                <li>2: Warshal's Algorithm</li>
-                <li>3: Priciple Of Inclusion/Exclusion</li>
+                <li><Link to="/warshals" className='link-topics'>2: Warshal's Algorithm</Link></li>
+                <li><Link to="/principleofinclusionexclusion" className='link-topics'>3: Priciple Of Inclusion/Exclusion</Link></li>
+                <li>4: Graph Theory</li>
             </ul>
         </div>
     </div>

@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 .row {
   display: flex;
   flex-wrap: wrap;
