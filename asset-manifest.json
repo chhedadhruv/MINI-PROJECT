@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.247d9ca0.css",
-    "main.js": "/static/js/main.24dd0b4d.js",
+    "main.css": "/static/css/main.54368be2.css",
+    "main.js": "/static/js/main.772d8bc1.js",
     "static/js/787.ea2ba4a8.chunk.js": "/static/js/787.ea2ba4a8.chunk.js",
+    "static/media/14.jpeg": "/static/media/14.7111fd1de9775a023a07.jpeg",
     "static/media/logo.png": "/static/media/logo.0aff0bd07e91886c2118.png",
     "static/media/DSGT-logos_black.png": "/static/media/DSGT-logos_black.50f314c93eb7a555f35c.png",
     "static/media/12.jpeg": "/static/media/12.5765331f5395896e48f4.jpeg",
@@ -14,12 +15,12 @@
     "static/media/10.jpeg": "/static/media/10.6b20d4833e156929dc5a.jpeg",
     "static/media/5.jpeg": "/static/media/5.584f6196953ffa13105b.jpeg",
     "index.html": "/index.html",
-    "main.247d9ca0.css.map": "/static/css/main.247d9ca0.css.map",
-    "main.24dd0b4d.js.map": "/static/js/main.24dd0b4d.js.map",
+    "main.54368be2.css.map": "/static/css/main.54368be2.css.map",
+    "main.772d8bc1.js.map": "/static/js/main.772d8bc1.js.map",
     "787.ea2ba4a8.chunk.js.map": "/static/js/787.ea2ba4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.247d9ca0.css",
-    "static/js/main.24dd0b4d.js"
+    "static/css/main.54368be2.css",
+    "static/js/main.772d8bc1.js"
   ]
 }
