@@ -11,7 +11,7 @@
 } */
 .row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
 }
@@ -46,7 +46,10 @@
   border: 0;
   outline: 0;
   background: #fff;
+  position: relative;
+  top: 0px;
 }
 .btn h1 {
   font-size: 50px;
+  color: #000;
 }

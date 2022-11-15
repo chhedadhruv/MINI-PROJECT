@@ -17,10 +17,10 @@ function Objective2() {
             find a counting method, which makes sure that an object is not counted twice.</p>
       <p>Consider two finite sets A and B. We can denote the Principle of Inclusion and Exclusion formula as follows:-</p>
             <p>n(A⋃B) = n(A) + n(B) – n(A⋂B)</p>
-            <img src ={Image12} height ="250"></img>
+            <img src ={Image12} height ="250" alt=''></img>
             <p>If we have 3 sets A, B, and C, then according to the Principle of Inclusion and Exclusion,</p> 
               <p>n(A⋃B⋃C) = n(A) + n(B) + n(C) – n(A⋂B) – n(A⋂C) – n(B⋂C) + n(A⋂B⋂C)</p>
-            <img src ={Image13} height ="250"></img>          
+            <img src ={Image13} height ="250" alt=''></img>          
     </div>
     </>
   );

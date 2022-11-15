@@ -6,7 +6,7 @@ function Procedure3() {
   return (
     <>
     <LeftNav3 />
-    <div style={{ position: "absolute", top: 130, left: 150 }}>
+    <div style={{ position: "absolute", top: 130, left: 170 }}>
       <h1>Procedure</h1>
       <h3>Graph Theory:</h3>
       <p>

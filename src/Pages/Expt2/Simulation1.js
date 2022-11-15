@@ -98,16 +98,16 @@ function Simulation1() {
   }
   
   // Matrices examples
-  var matrice8 = [
-    [1, 0, 1, 0, 0, 0, 0, 0],
-    [1, 1, 0, 1, 0, 0, 0, 0],
-    [1, 0, 1, 0, 0, 0, 0, 0],
-    [1, 0, 0, 1, 0, 0, 1, 0],
-    [0, 1, 0, 0, 1, 0, 1, 0],
-    [0, 0, 1, 0, 0, 1, 0, 0],
-    [0, 0, 1, 0, 0, 1, 1, 1],
-    [0, 0, 0, 0, 1, 0, 0, 1]
-  ];
+  // var matrice8 = [
+  //   [1, 0, 1, 0, 0, 0, 0, 0],
+  //   [1, 1, 0, 1, 0, 0, 0, 0],
+  //   [1, 0, 1, 0, 0, 0, 0, 0],
+  //   [1, 0, 0, 1, 0, 0, 1, 0],
+  //   [0, 1, 0, 0, 1, 0, 1, 0],
+  //   [0, 0, 1, 0, 0, 1, 0, 0],
+  //   [0, 0, 1, 0, 0, 1, 1, 1],
+  //   [0, 0, 0, 0, 1, 0, 0, 1]
+  // ];
   
   var matrice4 = [
     [w11, w12, w13, w14], 
@@ -117,10 +117,10 @@ function Simulation1() {
   ];
   
   // console.log(floydWarshall(matrice4));
-  function onClick() {
-    console.log(floydWarshall(matrice4));
-    const warshalalgorithm = floydWarshall(matrice4);
-  }
+  // function onClick() {
+  //   console.log(floydWarshall(matrice4));
+  //   const warshalalgorithm = floydWarshall(matrice4);
+  // }
   const warshalalgorithm = floydWarshall(matrice4);
 
   return (

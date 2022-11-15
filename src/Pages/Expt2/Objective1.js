@@ -6,7 +6,7 @@ function Objective1() {
   return (
     <>
     <LeftNav1 />
-    <div style={{ position: "absolute", top: 130, left: 150 }}>
+    <div style={{ position: "absolute", top: 130, left: 170 }}>
       <h1>Objective</h1>
       <p>
         The student will be able to:

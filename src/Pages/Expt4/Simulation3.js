@@ -18,14 +18,14 @@ function Simulation3() {
   return (
     <>
     <LeftNav3 />
-    <div style={{ position: "absolute", top: 130, left: 150, maxHeight:'95vh', overflow:'auto', width:'88.5%' }}>
+    <div style={{ position: "absolute", top: 130, left: 170, maxHeight:'95vh', overflow:'auto', width:'88.5%' }}>
         <h1>Types of Graph</h1>
             <p>
               {/* Directed graph: */}
-              <img src ={Image2} height ="200"></img>
+              <img src ={Image2} height ="200" alt=''></img>
             
               {/* Undirected Graph: */}
-              <img src ={Image1} height ="200"></img>
+              <img src ={Image1} height ="200" alt=''></img>
             </p>
           <p>
             Other types of graph
@@ -34,41 +34,41 @@ function Simulation3() {
             </p>
             <p>
             Null Graph:<br></br>
-            <img src ={Image3} height ="200"></img>
+            <img src ={Image3} height ="200" alt=''></img>
             <br></br>
 </p>
            <p>
              Simple Graph:<br></br>
-            <img src ={Image4} height ="200"></img>
+            <img src ={Image4} height ="200" alt=''></img>
             </p>
             <p>
             Multi-Graph:<br></br>
-            <img src ={Image5} height ="200"></img>
+            <img src ={Image5} height ="200" alt=''></img>
 
             <p>
             Connected Graph: <br></br>      
-            <img src ={Image6} height ="200"></img>
+            <img src ={Image6} height ="200" alt=''></img>
             </p>
             
             <p>
             Disconnected Graph:<br></br> 
-            <img src ={Image7} height ="200"></img>
+            <img src ={Image7} height ="200" alt=''></img>
             </p>
             <p>
             Cycle Graph:<br></br>
-            <img src ={Image8} height ="200"></img>
+            <img src ={Image8} height ="200" alt=''></img>
             </p>
             <p>
             Complete Graph: <br></br>
-            <img src ={Image9} height ="200"></img>
+            <img src ={Image9} height ="200" alt=''></img>
             </p>
             <p>
             Planer Graph:<br></br>
-            <img src ={Image10} height ="200"></img>
+            <img src ={Image10} height ="200" alt=''></img>
             </p>
             <p>
             Non-planer graph:<br></br>
-            <img src ={Image11} height ="200"></img>
+            <img src ={Image11} height ="200" alt=''></img>
             </p>
           </p>
     </div>
