@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar";
 import "../../styles/LeftNav.css";
 import { Link } from "react-router-dom";
-import {BsFillArrowLeftCircleFill} from "react-icons/bs";
+import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 
 function LeftNav2() {
   return (
@@ -18,38 +18,56 @@ function LeftNav2() {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/theory">
+                <Link
+                  className="link"
+                  to="/principleofinclusionexclusion/theory"
+                >
                   Theory
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/objective">
+                <Link
+                  className="link"
+                  to="/principleofinclusionexclusion/objective"
+                >
                   Objective
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/procedure">
+                <Link
+                  className="link"
+                  to="/principleofinclusionexclusion/procedure"
+                >
                   Procedure
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/simulation">
+                <Link
+                  className="link"
+                  to="/principleofinclusionexclusion/simulation"
+                >
                   Simulation
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/references">
+                <Link
+                  className="link"
+                  to="/principleofinclusionexclusion/references"
+                >
                   References
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/principleofinclusionexclusion/feedback">
+                <Link
+                  className="link"
+                  to="/principleofinclusionexclusion/feedback"
+                >
                   Feedback
                 </Link>
               </li>
               <li>
                 <Link className="link" to="/experiments">
-                   <BsFillArrowLeftCircleFill/> Back
+                  <BsFillArrowLeftCircleFill /> Back
                 </Link>
               </li>
             </ul>

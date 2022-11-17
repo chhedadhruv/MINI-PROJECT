@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import LeftNav3 from "./LeftNav3";
 import "../../styles/LeftNav.css";
 
@@ -33,4 +33,4 @@ function Theory3() {
   );
 }
 
-export default Theory3
+export default Theory3;

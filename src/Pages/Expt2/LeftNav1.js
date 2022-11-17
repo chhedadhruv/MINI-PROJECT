@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar";
 import "../../styles/LeftNav.css";
 import { Link } from "react-router-dom";
-import {BsFillArrowLeftCircleFill} from "react-icons/bs";
+import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 
 function LeftNav1() {
   return (
@@ -49,7 +49,7 @@ function LeftNav1() {
               </li>
               <li>
                 <Link className="link" to="/experiments">
-                   <BsFillArrowLeftCircleFill/> Back
+                  <BsFillArrowLeftCircleFill /> Back
                 </Link>
               </li>
             </ul>

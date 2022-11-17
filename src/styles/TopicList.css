@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .topic-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .topic-list-item ul li {
-    list-style: none;
-    cursor: pointer;
-    margin: 10px 0;
+  list-style: none;
+  cursor: pointer;
+  margin: 10px 0;
 }

@@ -1,22 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 2px dotted #a02525;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px dotted #a02525;
+  position: relative;
 }
 
 nav .logo img {
-    width: 500px;
-    height: 100px;
+  width: 500px;
+  height: 100px;
 }
 
 nav .links img {
-    height: 100px;
+  height: 100px;
 }

@@ -10,7 +10,9 @@
   width: 500px;
   background: #fff;
   border: 2px solid #a02525;
-  box-shadow: rgba(160, 37, 37, 0.4) 5px 5px, rgba(160, 37, 37, 0.3) 10px 10px, rgba(160, 37, 37, 0.2) 15px 15px, rgba(160, 37, 37, 0.1) 20px 20px, rgba(160, 37, 37, 0.05) 25px 25px;
+  box-shadow: rgba(160, 37, 37, 0.4) 5px 5px, rgba(160, 37, 37, 0.3) 10px 10px,
+    rgba(160, 37, 37, 0.2) 15px 15px, rgba(160, 37, 37, 0.1) 20px 20px,
+    rgba(160, 37, 37, 0.05) 25px 25px;
 }
 
 .title {
@@ -51,7 +53,7 @@
 
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(255, 255, 255, .75);
+    border-right-color: rgba(255, 255, 255, 0.75);
   }
 
   to {
@@ -69,13 +71,13 @@ button {
   color: #fff;
   border: none;
   border-radius: 30px;
-  transition:  0.8s ease;
+  transition: 0.8s ease;
 }
 button:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-button:active{
+button:active {
   background-color: rgb(255, 255, 255);
   color: #a02525;
   border: 1px solid #a02525;
@@ -90,7 +92,7 @@ button:active{
   text-decoration: none;
   color: #fff;
 }
-.link:active{
+.link:active {
   color: #a02525;
 }
 .link-topics {

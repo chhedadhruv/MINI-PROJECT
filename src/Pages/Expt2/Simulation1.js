@@ -1,10 +1,10 @@
-import React,{useState} from 'react'
+import React, { useState } from "react";
 import LeftNav1 from "./LeftNav1";
 import "../../styles/LeftNav.css";
 import "../../styles/Warshal.css";
 
 function Simulation1() {
-  const [w11,setW11] = useState("");
+  const [w11, setW11] = useState("");
   const [w12, setW12] = useState("");
   const [w13, setW13] = useState("");
   const [w14, setW14] = useState("");
@@ -72,7 +72,7 @@ function Simulation1() {
     var temp = [];
     var temp2 = [];
     var temp3 = [];
-    
+
     for (var k = 0; k < matrice.length; k++) {
       for (var i = 0; i < matrice.length; i++) {
         for (var j = 0; j < matrice.length; j++) {
@@ -88,15 +88,15 @@ function Simulation1() {
       temp3.push(temp2);
       temp2 = [];
     }
-      return temp3;
+    return temp3;
   }
-  
+
   function sum(arr) {
-    return arr.reduce(function(a, b) {
+    return arr.reduce(function (a, b) {
       return a + b;
     }, 0);
   }
-  
+
   // Matrices examples
   // var matrice8 = [
   //   [1, 0, 1, 0, 0, 0, 0, 0],
@@ -108,14 +108,14 @@ function Simulation1() {
   //   [0, 0, 1, 0, 0, 1, 1, 1],
   //   [0, 0, 0, 0, 1, 0, 0, 1]
   // ];
-  
+
   var matrice4 = [
-    [w11, w12, w13, w14], 
-    [w21, w22, w23, w24], 
-    [w31, w32, w33, w34], 
-    [w41, w42, w43, w44]
+    [w11, w12, w13, w14],
+    [w21, w22, w23, w24],
+    [w31, w32, w33, w34],
+    [w41, w42, w43, w44],
   ];
-  
+
   // console.log(floydWarshall(matrice4));
   // function onClick() {
   //   console.log(floydWarshall(matrice4));
@@ -125,46 +125,137 @@ function Simulation1() {
 
   return (
     <>
-    <LeftNav1 />
-    <div style={{ position: "absolute", top: 130, left: 150 }}><h1>Simulation</h1>
-    <div className="col">
-      <div className="row">
-      <input type="number" className="set-input" style={{margin:5}} value={w11} onChange={handlew11}></input>
-      <input type="number" className="set-input" value={w12} onChange={handlew12}></input>
-      <input type="number" className="set-input" value={w13} onChange={handlew13}></input>
-      <input type="number" className="set-input" value={w14} onChange={handlew14}></input>
-      </div>
-      <div className="row">
-      <input type="number" className="set-input" style={{margin:5}} value={w21} onChange={handlew21}></input>
-      <input type="number" className="set-input" value={w22} onChange={handlew22}></input>
-      <input type="number" className="set-input" value={w23} onChange={handlew23}></input>
-      <input type="number" className="set-input" value={w24} onChange={handlew24}></input>
-      </div>
-      <div className="row">
-      <input type="number" className="set-input" style={{margin:5}} value={w31} onChange={handlew31}></input>
-      <input type="number" className="set-input" value={w32} onChange={handlew32}></input>
-      <input type="number" className="set-input" value={w33} onChange={handlew33}></input>
-      <input type="number" className="set-input" value={w34} onChange={handlew34}></input>
-      </div>
-      <div className="row">
-      <input type="number" className="set-input" style={{margin:5}} value={w41} onChange={handlew41}></input>
-      <input type="number" className="set-input" value={w42} onChange={handlew42}></input>
-      <input type="number" className="set-input" value={w43} onChange={handlew43}></input>
-      <input type="number" className="set-input" value={w44} onChange={handlew44}></input>
-      </div>
-    </div><hr style={{marginTop:10}}/>
-    <h2 style={{marginBottom:5, textAlign:'center'}}>Output</h2>
-    {/* <button onClick={onClick}>Submit</button> */}
-    {warshalalgorithm.map((row) => (
-      <div className='warshal' style={{textAlign:'center'}}>
-        {row.map((col) => (
-          <span style={{fontSize:'1.5rem', margin:3}} className="warshal-algo">{col}</span>
-        ))}
+      <LeftNav1 />
+      <div style={{ position: "absolute", top: 130, left: 150 }}>
+        <h1>Simulation</h1>
+        <div className="col">
+          <div className="row">
+            <input
+              type="number"
+              className="set-input"
+              style={{ margin: 5 }}
+              value={w11}
+              onChange={handlew11}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w12}
+              onChange={handlew12}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w13}
+              onChange={handlew13}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w14}
+              onChange={handlew14}
+            ></input>
+          </div>
+          <div className="row">
+            <input
+              type="number"
+              className="set-input"
+              style={{ margin: 5 }}
+              value={w21}
+              onChange={handlew21}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w22}
+              onChange={handlew22}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w23}
+              onChange={handlew23}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w24}
+              onChange={handlew24}
+            ></input>
+          </div>
+          <div className="row">
+            <input
+              type="number"
+              className="set-input"
+              style={{ margin: 5 }}
+              value={w31}
+              onChange={handlew31}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w32}
+              onChange={handlew32}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w33}
+              onChange={handlew33}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w34}
+              onChange={handlew34}
+            ></input>
+          </div>
+          <div className="row">
+            <input
+              type="number"
+              className="set-input"
+              style={{ margin: 5 }}
+              value={w41}
+              onChange={handlew41}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w42}
+              onChange={handlew42}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w43}
+              onChange={handlew43}
+            ></input>
+            <input
+              type="number"
+              className="set-input"
+              value={w44}
+              onChange={handlew44}
+            ></input>
+          </div>
         </div>
-    ))}
-    </div>
+        <hr style={{ marginTop: 10 }} />
+        <h2 style={{ marginBottom: 5, textAlign: "center" }}>Output</h2>
+        {/* <button onClick={onClick}>Submit</button> */}
+        {warshalalgorithm.map((row) => (
+          <div className="warshal" style={{ textAlign: "center" }}>
+            {row.map((col) => (
+              <span
+                style={{ fontSize: "1.5rem", margin: 3 }}
+                className="warshal-algo"
+              >
+                {col}
+              </span>
+            ))}
+          </div>
+        ))}
+      </div>
     </>
-  )
+  );
 }
 
-export default Simulation1
+export default Simulation1;
