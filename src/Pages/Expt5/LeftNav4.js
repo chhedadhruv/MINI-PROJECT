@@ -27,11 +27,11 @@ function SetsSim() {
                   Objective
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="link" to="/pigeonhole/procedure">
                   Procedure
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link className="link" to="/pigeonhole/simulation">
                   Simulation
