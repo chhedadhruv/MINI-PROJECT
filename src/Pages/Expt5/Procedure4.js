@@ -7,12 +7,13 @@ function Procedure() {
       <Sets />
       <div style={{ position: "absolute", top: 130, left: 150 }}>
         <h1>Procedure</h1>
-        <h3>Operations on Sets:</h3>
         <p>
-          In set theory, the operations of the sets are carried when two or more
-          sets combine to form a single set under some of the given conditions.
-          The basic operations on sets are: 1. Union of sets 2.
-          Intersection of sets
+          Each student or group of students is given a set of small objects,
+          such as coins or marbles. The teacher provides a problem statement,
+          such as "If you have a bag of 10 marbles, and each marble is either
+          red or blue, how many marbles must you select to guarantee that you
+          have two marbles of the same color?" Students work individually or in
+          groups to solve the problem using the pigeonhole
         </p>
 
         <h4>Union of Sets</h4>

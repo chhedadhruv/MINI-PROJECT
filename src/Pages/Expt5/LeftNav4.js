@@ -32,11 +32,11 @@ function SetsSim() {
                   Procedure
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="link" to="/pigeonhole/simulation">
                   Simulation
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="link" to="/pigeonhole/references">
                   References

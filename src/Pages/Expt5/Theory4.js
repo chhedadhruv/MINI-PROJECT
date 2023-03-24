@@ -8,10 +8,28 @@ function Theory() {
       <div style={{ position: "absolute", top: 130, left: 150 }}>
         <h1>Theory</h1>
         <p>
-          The concept of sets in mathematics deals with the properties and
-          operations on collections of objects. This is particularly important
-          for classification, organization, and is the base for many forms of
-          data analysis.
+          The pigeonhole principle is a fundamental concept in combinatorial
+          mathematics that states that if n items are distributed among k
+          containers and n > k, then at least one container must contain more
+          than one item. This principle can be used to solve a wide range of
+          problems in various fields, including computer science, statistics,
+          and engineering. In the context of the experiment, the theory behind
+          the pigeonhole principle is used to solve combinatorial problems
+          involving the arrangement and distribution of objects. By applying the
+          principle, students are able to reason logically and systematically to
+          arrive at a correct solution. The experiment aims to provide students
+          with a hands-on learning experience that reinforces the concepts of
+          the pigeonhole principle and helps to develop their problem-solving
+          skills. The experiment involves the distribution of objects among
+          different containers, where the number of objects is greater than the
+          number of containers. By applying the pigeonhole principle, students
+          can determine the minimum number of objects that must be selected to
+          guarantee that at least one container contains more than one object.
+          This involves analyzing the problem and using logical reasoning to
+          arrive at a solution. Overall, the experiment is designed to introduce
+          students to the concept of the pigeonhole principle, provide them with
+          practical examples of how it can be applied, and help them develop
+          their problem-solving skills in combinatorial mathematics.
         </p>
         <p>
           In mathematics, sets are essentially a collection of different items

@@ -8,13 +8,20 @@ function Objective() {
       <div style={{ position: "absolute", top: 130, left: 170 }}>
         <h1>Objective</h1>
         <p>
-          The student will be able to:
           <ol>
             <li>
-              Define set, inclusive, element, object, and roster notation.
+              To provide concrete examples of the pigeonhole principle in action
+              and help students develop an intuitive understanding of the
+              concept.
             </li>
-            <li>Identify the elements of a given set.</li>
-            <li>Define Venn diagram, intersection, and union.</li>
+            <li>
+              To introduce students to the concept of the pigeonhole principle
+              and its applications in combinatorial mathematics.
+            </li>
+            <li>
+              To evaluate students' understanding of the pigeonhole principle
+              and their ability to apply it to solve mathematical problems.
+            </li>
           </ol>
         </p>
       </div>

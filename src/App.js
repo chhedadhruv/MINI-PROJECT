@@ -112,18 +112,18 @@ function App() {
         <Route path="/pigeonhole/aim" element={<Aim4 />} />
         <Route path="/pigeonhole/objective" element={<Objective4 />} />
         <Route path="/pigeonhole/procedure" element={<Procedure4 />} />
-        <Route path="/pigeonhole/simulation" element={<Simulation4 />} />
+        {/* <Route path="/pigeonhole/simulation" element={<Simulation4 />} /> */}
         <Route path="/pigeonhole/theory" element={<Theory4 />} />
         <Route path="/pigeonhole/references" element={<References4 />} />
         <Route path="/pigeonhole/feedback" element={<Feedback4 />} />
-        <Route path="/matrixtograph" element={<LeftNav5 />} />
-        <Route path="/matrixtograph/aim" element={<Aim5 />} />
-        <Route path="/matrixtograph/objective" element={<Objective5 />} />
-        <Route path="/matrixtograph/procedure" element={<Procedure5 />} />
-        <Route path="/matrixtograph/simulation" element={<Simulation5 />} />
-        <Route path="/matrixtograph/theory" element={<Theory5 />} />
-        <Route path="/matrixtograph/references" element={<References5 />} />
-        <Route path="/matrixtograph/feedback" element={<Feedback5 />} />
+        <Route path="/recurrencerelation" element={<LeftNav5 />} />
+        <Route path="/recurrencerelation/aim" element={<Aim5 />} />
+        <Route path="/recurrencerelation/objective" element={<Objective5 />} />
+        <Route path="/recurrencerelation/procedure" element={<Procedure5 />} />
+        <Route path="/recurrencerelation/simulation" element={<Simulation5 />} />
+        <Route path="/recurrencerelation/theory" element={<Theory5 />} />
+        <Route path="/recurrencerelation/references" element={<References5 />} />
+        <Route path="/recurrencerelation/feedback" element={<Feedback5 />} />
       </Routes>
     </>
   );

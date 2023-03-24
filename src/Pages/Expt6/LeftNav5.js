@@ -13,32 +13,32 @@ function SetsSim() {
           <div className="link-nav">
             <ul>
               <li>
-                <Link to="/matrixtograph/aim" className="link">
+                <Link to="/recurrencerelation/aim" className="link">
                   Aim
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/matrixtograph/theory">
+                <Link className="link" to="/recurrencerelation/theory">
                   Theory
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/matrixtograph/objective">
+                <Link className="link" to="/recurrencerelation/objective">
                   Objective
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/matrixtograph/procedure">
+                <Link className="link" to="/recurrencerelation/procedure">
                   Procedure
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/matrixtograph/simulation">
+                <Link className="link" to="/recurrencerelation/simulation">
                   Simulation
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/matrixtograph/references">
+                <Link className="link" to="/recurrencerelation/references">
                   References
                 </Link>
               </li>
