@@ -27,11 +27,11 @@ function SetsSim() {
                   Objective
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="link" to="/recurrencerelation/procedure">
                   Procedure
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="link" to="/recurrencerelation/simulation">
                   Simulation
