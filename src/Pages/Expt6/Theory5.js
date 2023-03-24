@@ -8,20 +8,20 @@ function Theory() {
       <div style={{ position: "absolute", top: 130, left: 150 }}>
         <h1>Theory</h1>
         <p>
-          The concept of sets in mathematics deals with the properties and
-          operations on collections of objects. This is particularly important
-          for classification, organization, and is the base for many forms of
-          data analysis.
+          Recurrence relations play a crucial role in discrete mathematics and
+          are used to describe and analyze a wide range of phenomena, from the
+          growth of populations to the complexity of algorithms. A recurrence
+          relation is an equation that recursively defines a sequence of
+          numbers, where each term of the sequence is expressed in terms of one
+          or more of the previous terms. 
         </p>
         <p>
-          In mathematics, sets are essentially a collection of different items
-          that form a group. A set can contain any number of elements, such as
-          numbers, days of the week, car types, and so on.{" "}
-        </p>
-        <p>
-          Each object in the set is referred to as an element of the set. When
-          writing a set, curly brackets are used. This is an example of a set in
-          its most basic form Set A =(1, 2, 3).
+          Recurrence relations can be classified
+          into linear and nonlinear types. Linear recurrence relations have the
+          form an = c1an-1 + c2an-2 + ... + ck an-k, where c1, c2, ..., ck are
+          constants and k is a non-negative integer. Nonlinear recurrence
+          relations, on the other hand, involve products or powers of previous
+          terms.
         </p>
       </div>
     </>
