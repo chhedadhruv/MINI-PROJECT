@@ -33,6 +33,22 @@ import LeftNav3 from "./Pages/Expt4/LeftNav3";
 import Feedback1 from "./Pages/Expt2/Feedback1";
 import Feedback2 from "./Pages/Expt3/Feedback2";
 import Feedback3 from "./Pages/Expt4/Feedback3";
+import Aim4 from "./Pages/Expt5/Aim4";
+import Objective4 from "./Pages/Expt5/Objective4";
+import Procedure4 from "./Pages/Expt5/Procedure4";
+import Simulation4 from "./Pages/Expt5/Simulation4";
+import Theory4 from "./Pages/Expt5/Theory4";
+import References4 from "./Pages/Expt5/References4";
+import LeftNav4 from "./Pages/Expt5/LeftNav4";
+import Feedback4 from "./Pages/Expt5/Feedback4";
+import Aim5 from "./Pages/Expt6/Aim5";
+import Objective5 from "./Pages/Expt6/Objective5";
+import Procedure5 from "./Pages/Expt6/Procedure5";
+import Simulation5 from "./Pages/Expt6/Simulation5";
+import Theory5 from "./Pages/Expt6/Theory5";
+import References5 from "./Pages/Expt6/References5";
+import LeftNav5 from "./Pages/Expt6/LeftNav5";
+import Feedback5 from "./Pages/Expt6/Feedback5";
 
 function App() {
   return (
@@ -92,6 +108,22 @@ function App() {
           element={<Feedback2 />}
         />
         <Route path="/graphtheory/feedback" element={<Feedback3 />} />
+        <Route path="/pigeonhole" element={<LeftNav4 />} />
+        <Route path="/pigeonhole/aim" element={<Aim4 />} />
+        <Route path="/pigeonhole/objective" element={<Objective4 />} />
+        <Route path="/pigeonhole/procedure" element={<Procedure4 />} />
+        <Route path="/pigeonhole/simulation" element={<Simulation4 />} />
+        <Route path="/pigeonhole/theory" element={<Theory4 />} />
+        <Route path="/pigeonhole/references" element={<References4 />} />
+        <Route path="/pigeonhole/feedback" element={<Feedback4 />} />
+        <Route path="/matrixtograph" element={<LeftNav5 />} />
+        <Route path="/matrixtograph/aim" element={<Aim5 />} />
+        <Route path="/matrixtograph/objective" element={<Objective5 />} />
+        <Route path="/matrixtograph/procedure" element={<Procedure5 />} />
+        <Route path="/matrixtograph/simulation" element={<Simulation5 />} />
+        <Route path="/matrixtograph/theory" element={<Theory5 />} />
+        <Route path="/matrixtograph/references" element={<References5 />} />
+        <Route path="/matrixtograph/feedback" element={<Feedback5 />} />
       </Routes>
     </>
   );

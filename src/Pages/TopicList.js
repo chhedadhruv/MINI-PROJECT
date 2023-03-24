@@ -33,6 +33,16 @@ function ExperimentList() {
                 4: Graph Theory
               </Link>
             </li>
+            <li>
+              <Link to="/pigeonhole" className="link-topics">
+                5: Pigeonhole Principle
+              </Link>
+            </li>
+            {/* <li>
+              <Link to='/matrixtograph' className="link-topics">
+                6: Matrix To Graph
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>

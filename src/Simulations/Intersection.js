@@ -98,7 +98,12 @@ function Intersection() {
       setA2Value === "" &&
       setA3Value === "" &&
       setA4Value === "" &&
-      setA5Value === ""
+      setA5Value === "" &&
+      setB1Value !== "" &&
+      setB2Value !== "" &&
+      setB3Value !== "" &&
+      setB4Value !== "" &&
+      setB5Value !== ""
     ) {
       alert("Set A is empty");
     }
@@ -107,7 +112,12 @@ function Intersection() {
       setB2Value === "" &&
       setB3Value === "" &&
       setB4Value === "" &&
-      setB5Value === ""
+      setB5Value === "" &&
+      setA1Value !== "" &&
+      setA2Value !== "" &&
+      setA3Value !== "" &&
+      setA4Value !== "" &&
+      setA5Value !== ""
     ) {
       alert("Set B is empty");
     }
@@ -125,34 +135,34 @@ function Intersection() {
     ) {
       alert("Both sets are empty");
     }
-    if (
-      setA1Value === setA2Value ||
-      setA1Value === setA3Value ||
-      setA1Value === setA4Value ||
-      setA1Value === setA5Value ||
-      setA2Value === setA3Value ||
-      setA2Value === setA4Value ||
-      setA2Value === setA5Value ||
-      setA3Value === setA4Value ||
-      setA3Value === setA5Value ||
-      setA4Value === setA5Value
-    ) {
-      alert("Set A has duplicate elements.Enter a valid set");
-    }
-    if (
-      setB1Value === setB2Value ||
-      setB1Value === setB3Value ||
-      setB1Value === setB4Value ||
-      setB1Value === setB5Value ||
-      setB2Value === setB3Value ||
-      setB2Value === setB4Value ||
-      setB2Value === setB5Value ||
-      setB3Value === setB4Value ||
-      setB3Value === setB5Value ||
-      setB4Value === setB5Value
-    ) {
-      alert("Set B has duplicate elements.Enter a valid set");
-    }
+    // if (
+    //   setA1Value === setA2Value ||
+    //   setA1Value === setA3Value ||
+    //   setA1Value === setA4Value ||
+    //   setA1Value === setA5Value ||
+    //   setA2Value === setA3Value ||
+    //   setA2Value === setA4Value ||
+    //   setA2Value === setA5Value ||
+    //   setA3Value === setA4Value ||
+    //   setA3Value === setA5Value ||
+    //   setA4Value === setA5Value
+    // ) {
+    //   alert("Set A has duplicate elements.Enter a valid set");
+    // }
+    // if (
+    //   setB1Value === setB2Value ||
+    //   setB1Value === setB3Value ||
+    //   setB1Value === setB4Value ||
+    //   setB1Value === setB5Value ||
+    //   setB2Value === setB3Value ||
+    //   setB2Value === setB4Value ||
+    //   setB2Value === setB5Value ||
+    //   setB3Value === setB4Value ||
+    //   setB3Value === setB5Value ||
+    //   setB4Value === setB5Value
+    // ) {
+    //   alert("Set B has duplicate elements.Enter a valid set");
+    // }
   };
   return (
     <div className="row">
